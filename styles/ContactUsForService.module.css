@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.mainCont {
+    width: 89%;
+    /* min-height: 506px; */
+    min-height: 306px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 400px; */
+    /* background-color: orange; */
+}
+
+.innerMainCont {
+    width: 100%;
+    display: flex;
+}
+
+.outerTextContactus {
+    width: 65%;
+    margin-right: 10px;
+}
+
+.btnContactUs {
+    width: 204px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    color: #ffffff;
+    /* border: 1px solid #ffffff; */
+    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    /* cursor: pointer; */
+    background-color: #5454d4;
+}
+
+.divImageHiasan4 {
+    width: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 0;
+    right: 120px;
+    /* background-color: pink; */
+}
+
+.divImageHiasan2 {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    /* background-color: pink; */
+}
+
+.contText2 {
+    width: 50%;
+    min-height: 200px;
+    padding-left: 6%;
+    /* margin-top: 100px; */
+    /* background-color: brown; */
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .mainCont {
+        min-height: 250px;
+    }
+    .innerMainCont {
+        width: 89%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+    .outerTextContactus {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: -20px;
+        right: 40px;
+        /* background-color: pink; */
+    }
+
+    .divImageHiasan2 {
+        width: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -50px;
+        left: 50px;
+        /* background-color: pink; */
+    }
+    .contText2 {
+        width: 50%;
+        min-height: 200px;
+        padding-left: 10%;
+        /* margin-top: 100px; */
+        /* background-color: brown; */
+    }
+
+    .btnContactUs {
+        width: 204px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        color: #ffffff;
+        /* border: 1px solid #ffffff; */
+        border-radius: 4px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        /* cursor: pointer; */
+        background-color: #5454d4;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+    .fullMainCont {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
+    .fullMainCont {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

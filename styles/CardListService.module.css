@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    position: relative;
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+.mainCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    /* min-height: 400px; */
+    /* background-color: orange; */
+}
+
+.benListCard {
+    width: 100%;
+    height: 254px;
+    /* position: absolute; */
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 18%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.benListCard2 {
+    width: 100%;
+    height: 254px;
+    /* position: absolute; */
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    /* top: 18%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxCard {
+    width: 332px;
+    height: 254px;
+    margin-right: 20px;
+    /* background-color: #ffffff; */
+    position: relative;
+    /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxCard2 {
+    width: 332px;
+    height: 254px;
+    /* background-color: #ffffff; */
+    position: relative;
+    /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontTextCard {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.divImageHiasan4 {
+    width: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -50px;
+    left: 50px;
+    /* background-color: pink; */
+}
+
+.hrStyle {
+    border: none;
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        /* margin-bottom: 600px; */
+        margin-bottom: 450px;
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        /* flex-direction: column;
+        justify-content: space-between; */
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 6%;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 25%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 25%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 15%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 14%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 14%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 6%;
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 6%;
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /*untuk mobile version*/
+
+    .fullMainCont {
+        margin-bottom: 600px;
+        /* margin-bottom: 450px; */
+    }
+
+    .mainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* min-height: 400px; */
+        /* background-color: orange; */
+    }
+
+    .benListCard {
+        width: 100%;
+        min-height: 254px;
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-left: 6%; */
+    }
+
+    .hrStyle {
+        border: none;
+        margin-bottom: 500px;
+    }
+
+    .benListCard2 {
+        width: 100%;
+        min-height: 254px;
+        /* min-height: 254px; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        margin-left: auto;
+        margin-right: auto;
+        /* top: 18%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* margin-left: 6%; */
+        margin-top: 30px;
+    }
+
+    .boxCard {
+        margin-bottom: 50px;
+        width: 332px;
+        height: 254px;
+        margin-right: 20px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxCard2 {
+        width: 332px;
+        height: 254px;
+        /* background-color: #ffffff; */
+        position: relative;
+        /* box-shadow: 0px 20px 30px rgba(0, 114, 224, 0.08); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divImageHiasan4 {
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        bottom: -57%;
+        left: 50px;
+        /* background-color: pink; */
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+    .fullMainCont {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
+    .fullMainCont {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

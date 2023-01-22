@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    position: relative;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.mainCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    min-height: 400px;
+    /* background-color: orange; */
+}
+
+.innerMainCont {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    display: flex;
+    /* background-color: orange; */
+}
+
+.contText {
+    width: 50%;
+    min-height: 200px;
+    /* margin-top: 100px; */
+    /* background-color: brown; */
+}
+
+.contText2 {
+    width: 50%;
+    min-height: 200px;
+    /* margin-top: 100px; */
+    /* background-color: brown; */
+}
+
+.contSecImage {
+    width: 100%;
+    min-height: 200px;
+    /* background-color: rgb(127, 190, 54); */
+}
+
+.divImage {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: pink; */
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .fullMainCont {
+        margin-bottom: 100px;
+    }
+    .innerMainCont {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: orange; */
+    }
+    .contText {
+        width: 100%;
+        min-height: 100px;
+    }
+    .contText2 {
+        width: 100%;
+        min-height: 100px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+    .fullMainCont {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
+    .fullMainCont {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

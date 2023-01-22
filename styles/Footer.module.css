@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+
+.fullMainCont {
+    width: 100%;
+}
+
+.mainCont {
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+    /* background-color: orange; */
+}
+.divLogo {
+    width: 25%;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 100px; */
+    /* background-color: red; */
+}
+.divNav {
+    width: 50%;
+    margin-right: 50px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.suppAndPrivacy {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.term {
+    cursor: pointer;
+}
+
+.divAllrightReserved {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enverText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #ffffff;
+}
+.btnContactUs {
+    width: 12%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: white; */
+}
+
+@media only screen and (max-width: 925px) {
+    /*untuk mobile version*/
+    .mainCont {
+        display: flex;
+        flex-direction: column;
+    }
+    .divLogo {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    .divNav {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suppAndPrivacy {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .divAllrightReserved {
+        width: 89%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    /*untuk desktop 1500 version (zomm out sekitar 75%)*/
+    .fullMainCont {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    /*untuk desktop 1900 version (zomm out sekitar 67%)*/
+    .fullMainCont {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

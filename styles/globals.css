@@ -1,0 +1,104 @@
+/* Pengaturan ukuran dasar sepertin font, margin padding, dllada di sini; */
+/* cth : tag <p> mempunya ukuran font 19,..artinya meskipun kita memakai p di tempat lain 
+        tanpa menyertakan ukurannya maka P tersebut sudah 19 fontnya,..kecuali kita deklar lagi ukurannya */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito+Sans:wght@400;600;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap'); */
+@font-face {
+    font-family: 'Graphik';
+    /* src: url('../public/font/GraphikRegular.otf'); */
+    src: url('../public/font/GraphikBold.otf');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    background-color: #19191b;
+}
+
+a {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+    font-family: 'Graphik';
+    font-size: 80px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Graphik';
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    h1 {
+        font-family: 'Graphik';
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    h2 {
+        font-family: 'Graphik';
+
+        font-size: 30px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+    p {
+        font-size: 21px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    h1 {
+        font-family: 'Graphik';
+        font-size: 80px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    h2 {
+        font-family: 'Graphik';
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+} */
